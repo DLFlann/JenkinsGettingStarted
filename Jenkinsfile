@@ -6,5 +6,9 @@ pipeline {
                 sh 'npm --version'
             }
         }
+        stage('echo') {
+            steps {
+                echp 'Hello World'
+        }
     }
 }
